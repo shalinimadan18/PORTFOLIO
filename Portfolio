@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Shalini UI/UX Designer</title>
+	
+    
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		.navbar {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			position: sticky;
+			top: 0;
+			cursor: pointer;
+		}
+
+		.background {
+			background: #687169;
+			background-blend-mode: darken;
+			background-size: cover;
+		}
+
+		.nav-list {
+			width: 70%;
+			display: flex;
+			align-items: center;
+		}
+
+		.logo {
+			display: small;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.logo img {
+			width: 35px;
+			border-radius: 50px;
+		}
+
+		.nav-list li {
+			list-style: none;
+			padding: 26px 30px;
+		}
+
+		.nav-list li a {
+			text-decoration: none;
+			color: white;
+		}
+
+		.nav-list li a:hover {
+			color: grey;
+		}
+
+		.rightnav {
+			width: 30%;
+			text-align: right;
+		}
+
+		#search {
+			padding: 5px;
+			font-size: 17px;
+			border: 2px solid grey;
+			border-radius: 9px;
+		}
+
+		.firstsection {
+			background-color: #a9ba9d;
+			height: 400px;
+		}
+
+		.secondsection {
+			background-color: #b2beb5;
+			height: 400px;
+		}
+
+		.box-main {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: White;
+			max-width: 80%;
+			margin: auto;
+			height: 80%;
+		}
+
+		.firsthalf {
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+
+		.secondhalf {
+			width: 30%;
+		}
+
+		.secondhalf img {
+			width: 70%;
+			border: 4px solid white;
+			border-radius: 150px;
+			display: block;
+			margin: auto;
+		}
+
+		.text-big {
+			font-family: 'Sans', serif;
+			font-weight: bold;
+			font-size: 35px;
+			text-align: center;
+		}
+
+		.text-small {
+			font-size: 25px;
+			text-align: center;
+		}
+		
+		.text-about {
+			font-size: 20px;
+			text-align: center;
+		}
+
+		.btn {
+			padding: 8px 20px;
+			margin: 7px 0;
+			border: 2px solid white;
+			border-radius: 8px;
+			background: none;
+			color: white;
+			cursor: pointer;
+		}
+
+		.btn-sm {
+			padding: 6px 10px;
+			vertical-align: middle;
+		}
+
+		.section {
+			height: 400px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			max-width: 100%;
+			margin: auto;
+			background-color:#828e84;
+		}
+
+		.section-Left {
+			flex-direction: row-reverse;
+		}
+
+		.paras {
+			padding: 0px 65px;
+		}
+		
+		.aboutme img {
+		
+		margin-left: -400px;
+		width: 280px;
+		height:280 px;
+		border-radius: 26px;
+		margin-top: -200px;
+			
+		}	
+		
+		.skills img {
+		
+		margin-left: -600px;
+		width: 400px;
+		height:400x;
+	border-radius: 26px;
+		margin-top: -320px;
+			
+		}	
+	
+		
+		.thumbnail img {
+			width: 250px;
+			border: 2px solid grey;
+			border-radius: 26px;
+			margin-top: 19px;
+			
+		}
+
+
+		.center {
+			text-align: center;
+			
+		}
+
+		.text-footer {
+			text-align: center;
+			padding: 30px 0;
+			font-family: 'Ubuntu', sans-serif;
+			display: flex;
+			justify-content: center;
+			background color: #A7B0B7;
+			
+		color: light grey;
+		
+		* {box-sizing: border-box}
+
+
+
+		
+	</style>
+	
+</head>
+
+<body>
+	<nav class="navbar background">
+		<ul class="nav-list">
+			<div class="logo">
+				<img src= "logo.jpg">
+			</div>
+			<li><a href="#home">Home</a></li>
+			<li><a href="#About Us">About</a></li>
+			<li><a href="#Projects">Projects</a></li>
+			<li><a href="#Services">Services</a></li>
+			<li><a href="#Contact">Contact</a></li>
+			
+		</ul>
+
+		<div class="rightNav">
+			<input type="text" name="search" id="search">
+			<button class="btn btn-sm">Search</button>
+		</div>
+	</nav>
+
+	<section class="firstsection">
+		<div class="box-main">
+			<div class="firstHalf">
+				<h1 class="text-big" id="web">SHALINI M</h1> <br> 
+				
+				<p class="text-small"> UI/UX Designer </p><br>
+				
+				<p class="text-about"> Hi! I'm Shalini, a passionate UI/UX Designer trying to solve problems on a daily basis.<p> <br>
+			<p class="text-about">I believe that most complex problems often have the simplest solutions.</p><br>
+			<p class="text-about">I'm  based out of Bangalore, Karnataka.</p>
+				<div class="aboutme">
+					<img src= "aboutme.jpg"  alt=" image">
+				</div>
+
+
+			</div>
+		</div>
+	</section>
+
+	<section class="secondsection">
+		<div class="box-main">
+			<div class="firstHalf">
+				<h1 class="text-big" id="program">PROJECTS</h1><br>
+				<p class="text-small"> View my resume here </p><br>
+				<li><a href="https://drive.google.com/file/d/187yL03FrEY0sdZip9nm69Q_iF9uc4kLl/view?usp=sharing"><button class="btn btn-sm">View Resume</button></a> <br>
+				
+			<br>	<p class="text-small"> Link to my Portfolio:</p><br>
+				<li><a href="https://drive.google.com/drive/folders/1HsN2ZGA0m1qFJxDqGRnWp4XNc52hfXoV?usp=sharing"><button class="btn btn-sm">Portfolio</button></a> <br>
+				<div class="skills">
+					<img src= "skills.jpg"  alt=" image">
+				</div>
+				
+				
+
+			</div>
+		</div>
+	</section>
+	
+
+
+
+	<section class="section">
+		<div class="paras">
+			<h1 class="text-big">Contact Me</h1><br>
+			<p class="text-small">Let's Connect!  </p><br>
+			 <form>
+                       <input type="email" name="email" placeholder="Enter Your Email" />
+					   <input type="number" name="number" placeholder="Enter your number" />
+                       <button>Submit</button>
+                    </form>
+			
+
+		</div>
+
+	</section>
+
+	<footer class="background">
+		<p class="text-footer">
+			Copyright ©-All Rights Are Reserved.
+		</p>
+
+
+	</footer>
+</body>
+
+</html>
